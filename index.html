@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Talal Asif | Web Developer</title>
+  <link rel="stylesheet" href="css.css"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Talal Asif</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="about-container">
+      <img src="photo.jpg" alt="Sharoze Photo" class="profile-img-square"/>
+      <div>
+        <h2>About Me</h2>
+        <p>I’m Talal Asif, a web developer and machine learning enthusiast. I love creating intelligent web apps that solve real-world problems. With a deep interest in AI, I bring together front-end development and data science to deliver impactful digital solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul class="edu-list">
+      <li><strong>Bachelor of Science in Information Technology</strong> - Bahria University, Karachi</li>
+      <li><strong>Intermediate in Pre-Engineering</strong> - PECHS Govt Colleges</li>
+      <li><strong>Matriculation in Science</strong> - The Educators</li>
+    </ul>
+  </section>
+
+  <div class="timeline">
+    <div class="tech-point" data-tech="Python">Python</div>
+    <div class="tech-point" data-tech="ML">Machine Learning</div>
+    <div class="tech-point" data-tech="WebDev">Web Development</div>
+  </div>
+
+  <div id="tech-details" class="hidden">
+    <h3 id="tech-title"></h3>
+    <p id="tech-description"></p>
+    <a id="tech-link" target="_blank">View Project</a>
+  </div>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Built using HTML, CSS, and JavaScript to showcase my skills and work.</p>
+      <a href="https://github.com/sharoze-shahid/portfolio" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Otsimo App</h3>
+      <p>Educational software for dyslexic students with a clean and intuitive interface.</p>
+      <a href="https://github.com/sharoze-shahid/weather-app" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Bitcoin Predictor</h3>
+      <p>Predicts Bitcoin trends using machine learning classification models.</p>
+      <a href="https://github.com/sharoze-shahid/todo-app" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Talal Asif. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
